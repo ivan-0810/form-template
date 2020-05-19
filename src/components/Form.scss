@@ -73,27 +73,29 @@
       }
       input::placeholder {
         text-indent: 10px;
+        padding: 0;
         font-size: 20px;
         color: lightgray;
         line-height: normal;
+        overflow: visible;
       }
       input::-webkit-input-placeholder {
-     
+        overflow: visible;
         font-size: 20px;
         color: lightgray;
       }
       input::-moz-placeholder {
- 
+        overflow: visible;
         font-size: 20px;
         color: lightgray;
       }
       input::-ms-input-placeholder {
-    
+        overflow: visible;
         font-size: 20px;
         color: lightgray;
       }
       input::-ms-input-placeholder {
-   
+        overflow: visible;
         font-size: 20px;
         color: lightgray;
       }
