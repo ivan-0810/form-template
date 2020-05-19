@@ -63,7 +63,7 @@
                 flex-direction: column;
       }
       input{
-        height: 50px;
+        height: 50px!important;
         border-radius: 6px;
         border: 1px solid lightgray;
         outline: none;
@@ -72,33 +72,32 @@
         margin-bottom: 30px;
       }
       input::-webkit-input-placeholder {
-        padding: 20px;
+        padding: 20px !important;
         font-size: 20px;
         color: lightgray;
       }
       input::-moz-placeholder {
-        padding: 20px;
+        padding: 20px !important;
         font-size: 20px;
         color: lightgray;
       }
       input:-ms-input-placeholder {
-        padding: 20px;
+        padding: 20px !important;
         font-size: 20px;
         color: lightgray;
       }
       input::-ms-input-placeholder {
-        padding: 20px;
+        padding: 20px !important;
         font-size: 20px;
         color: lightgray;
       }
       input::placeholder {
-        padding: 20px;
+        padding: 20px !important;
         font-size: 20px;
         color: lightgray;
       }
       input[type=submit]{
           background-color: #1fbf99;
-          height: 50px;
           color: white;
           font-size: 15px;
           font-weight: bold;
