@@ -162,10 +162,9 @@
   .right-box div {
     width: 87%;
     margin: 0 auto;
-    input{
-      height: 50px!important;
+    input::placeholder{
+      padding: 0;
     }
-    
     h3{
       font-size: 23px;
     }
