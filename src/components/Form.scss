@@ -113,7 +113,7 @@
     }
 }
 
-@media only screen and (min-width: 320px) and (max-width: 735px) {
+@media(max-width: 735px) {
   .box{
     height: -webkit-fit-content;
     height: -moz-fit-content;
@@ -188,7 +188,7 @@
     }
   }
 }
-@media only screen and (min-width: 737px) and (max-width: 881px){
+@media (max-width: 881px){
   .box{
     height: -webkit-fit-content;
     height: -moz-fit-content;
