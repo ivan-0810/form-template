@@ -5,10 +5,15 @@
   }
     width: 70%;
     height: 80vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
     background-color: white;
     border-radius: 8px;
+    -webkit-transition: opacity 0.25s ease-in-out 0.125s, margin-top 1.5s;
+    -o-transition: opacity 0.25s ease-in-out 0.125s, margin-top 1.5s;
     transition: opacity 0.25s ease-in-out 0.125s, margin-top 1.5s;
 
     .left-box, .right-box {
@@ -49,8 +54,13 @@
 
       }
       form{
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
       }
       input{
         height: 50px;
@@ -60,6 +70,26 @@
       }
       input:not(:last-child){
         margin-bottom: 30px;
+      }
+      input::-webkit-input-placeholder {
+        padding-left: 20px;
+        font-size: 20px;
+        color: lightgray;
+      }
+      input::-moz-placeholder {
+        padding-left: 20px;
+        font-size: 20px;
+        color: lightgray;
+      }
+      input:-ms-input-placeholder {
+        padding-left: 20px;
+        font-size: 20px;
+        color: lightgray;
+      }
+      input::-ms-input-placeholder {
+        padding-left: 20px;
+        font-size: 20px;
+        color: lightgray;
       }
       input::placeholder {
         padding-left: 20px;
@@ -84,11 +114,15 @@
 
 @media only screen and (min-width: 320px) and (max-width: 735px) {
   .box{
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
     height: fit-content;
     padding-top: 20px;
   }
   .form-div{
     width: 90%;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
     height: fit-content;
     display: block;
     margin-bottom: 10px;
@@ -96,6 +130,8 @@
 
     .left-box, .right-box {
       width: 100%;
+      height: -webkit-fit-content;
+      height: -moz-fit-content;
       height: fit-content;
       border: none;
   }
@@ -136,7 +172,10 @@
   }
   .footer {
     margin-top: 30px;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     p{ text-align: center;}
     .social-icons a {
       width: 25px;
@@ -149,11 +188,15 @@
 }
 @media only screen and (min-width: 737px) and (max-width: 881px){
   .box{
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
     height: fit-content;
     padding-top: 50px;
   }
   .form-div{
     width: 90%;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
     height: fit-content;
     margin-bottom: 10px;
     padding-bottom: 54px;
@@ -170,6 +213,18 @@
         input{
           margin-bottom: 20px!important;
           height: 42px;
+        }
+        input::-webkit-input-placeholder {
+          font-size: 16px;
+        }
+        input::-moz-placeholder {
+          font-size: 16px;
+        }
+        input:-ms-input-placeholder {
+          font-size: 16px;
+        }
+        input::-ms-input-placeholder {
+          font-size: 16px;
         }
         input::placeholder {
           font-size: 16px;
@@ -202,11 +257,15 @@
 @media only screen and (min-width: 881px){
 
   .box{
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
     height: fit-content;
     padding-top: 50px;
   }
   .form-div{
     width: 90%;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
     height: fit-content;
     margin-bottom: 10px;
     padding-bottom: 54px;

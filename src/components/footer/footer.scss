@@ -1,8 +1,14 @@
 .footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     width: 80%;
     margin: 0 auto;
+    -webkit-transition: opacity 0.25s ease-in-out 0.125s, margin-top 1.5s;
+    -o-transition: opacity 0.25s ease-in-out 0.125s, margin-top 1.5s;
     transition: opacity 0.25s ease-in-out 0.125s, margin-top 1.5s;
     p{
         color: lightgray;
