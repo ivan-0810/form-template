@@ -66,7 +66,7 @@
         height: 50px!important;
         border-radius: 6px;
         border: 1px solid lightgray;
-        outline: none;
+        
       }
       input:not(:last-child){
         margin-bottom: 30px;
@@ -162,6 +162,9 @@
   .right-box div {
     width: 87%;
     margin: 0 auto;
+    input{
+      height: 50px!important;
+    }
     
     h3{
       font-size: 23px;
