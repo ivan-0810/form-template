@@ -105,11 +105,14 @@
       }
     
       input[type=submit]{
+          height: 50px;
           background-color: #1fbf99;
           color: white;
           font-size: 15px;
           font-weight: bold;
           cursor: pointer;
+          padding: 0;
+          box-shadow: none;
       }
       input:focus{
         border: 2px solid #1fbf99;
