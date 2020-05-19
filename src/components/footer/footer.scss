@@ -1,0 +1,10 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    transition: opacity 0.25s ease-in-out 0.125s, margin-top 1.5s;
+    p{
+        color: lightgray;
+    }
+}
