@@ -72,32 +72,33 @@
         margin-bottom: 30px;
       }
       input::-webkit-input-placeholder {
-        padding-left: 20px;
+        padding: 20px;
         font-size: 20px;
         color: lightgray;
       }
       input::-moz-placeholder {
-        padding-left: 20px;
+        padding: 20px;
         font-size: 20px;
         color: lightgray;
       }
       input:-ms-input-placeholder {
-        padding-left: 20px;
+        padding: 20px;
         font-size: 20px;
         color: lightgray;
       }
       input::-ms-input-placeholder {
-        padding-left: 20px;
+        padding: 20px;
         font-size: 20px;
         color: lightgray;
       }
       input::placeholder {
-        padding-left: 20px;
+        padding: 20px;
         font-size: 20px;
         color: lightgray;
       }
       input[type=submit]{
           background-color: #1fbf99;
+          height: 50px;
           color: white;
           font-size: 15px;
           font-weight: bold;
@@ -162,34 +163,7 @@
   .right-box div {
     width: 87%;
     margin: 0 auto;
-    input[type=submit]{
-      height: 50px;
-    }
-    input::-webkit-input-placeholder {
-      padding-left: 20px;
-      font-size: 20px;
-      color: lightgray;
-    }
-    input::-moz-placeholder {
-      padding-left: 20px;
-      font-size: 20px;
-      color: lightgray;
-    }
-    input:-ms-input-placeholder {
-      padding-left: 20px;
-      font-size: 20px;
-      color: lightgray;
-    }
-    input::-ms-input-placeholder {
-      padding-left: 20px;
-      font-size: 20px;
-      color: lightgray;
-    }
-    input::placeholder {
-      padding-left: 20px;
-      font-size: 20px;
-      color: lightgray;
-    }
+    
     h3{
       font-size: 23px;
     }
