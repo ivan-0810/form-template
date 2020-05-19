@@ -23,7 +23,7 @@ const Form = ({ isReady }) => {
           <form action="#">
             <input type="text" placeholder="Name" required />
             <input type="email" placeholder="Email" required />
-            <input type="submit" placeholder="Submit" style={{height:"50px"}}/>
+            <input type="submit" placeholder="Submit" />
             <p>Aereon lorem ipsum ormare velit locus.</p>
           </form>
         </div>
