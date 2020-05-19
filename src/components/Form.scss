@@ -67,6 +67,9 @@
         border-radius: 6px;
         border: 1px solid lightgray;
         outline: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+          appearance: none;
       }
       input:not(:last-child){
         margin-bottom: 30px;
